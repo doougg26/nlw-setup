@@ -14,13 +14,14 @@ body{
 button{
     padding: 16px 24px;
     border-radius: 8px;
-    border:1px solid darkslateblue;
+    border:1px solid #22C55E;
     background-color: transparent;
     color:white;
     display: flex;
     align-items: center;  
     font:600 1em 'Inter';
     line-height: 125%;
+    gap: 12px;
 }
 header{
     display: flex;
@@ -42,8 +43,8 @@ input{
     border-radius: 8px;
 }
 input:checked{
-    background: darkslateblue;
-    border: rgb(139, 121, 255);
+    background: #22C55E;
+    border:#4ADE80;
 }
 #form-habits{
     display: flex;
@@ -82,7 +83,7 @@ input:checked{
     font-size: 20px;
     text-align: center;
     line-height: 125%;
-    color: #A1A1AA;
+    color: #a1aaa5;
 
 }
 @media (max-width:570px) {
